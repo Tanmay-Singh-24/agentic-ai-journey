@@ -1,9 +1,28 @@
+# Secrets
 .env
+
+# Python
 __pycache__/
 *.pyc
+
+# System
 .DS_Store
+
+# Virtual environment
 venv/
+
+# Jupyter
 *.ipynb_checkpoints
 .ipynb_checkpoints/
+
+# Private files
 CLAUDE.md
 resources.md
+
+# ChromaDB data
+**/chroma_store/
+**/chromadb_basics/
+**/Night/
+
+# Archive
+**/archive/
