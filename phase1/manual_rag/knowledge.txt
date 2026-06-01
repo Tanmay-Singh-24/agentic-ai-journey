@@ -1,0 +1,19 @@
+The Zephyr X1 Drone — Technical Handbook
+
+Overview
+The Zephyr X1 is a lightweight autonomous survey drone built by Aldwin Robotics, a fictional company based in Pune. It was released in March 2025 and is designed for agricultural field mapping and small-scale industrial inspection. The airframe is made from a carbon-fibre and magnesium alloy weighing only 740 grams without the battery.
+
+Battery and Flight Time
+The Zephyr X1 ships with a 5200 mAh swappable lithium-polymer battery. On a full charge it delivers a maximum flight time of 38 minutes in calm conditions, dropping to about 27 minutes in winds above 25 km/h. The battery charges fully in 55 minutes using the bundled 65-watt fast charger. Aldwin recommends storing batteries at 50 percent charge if they will not be used for more than two weeks.
+
+Camera and Sensors
+The drone carries a 48-megapixel main camera on a 3-axis mechanical gimbal, plus a separate multispectral sensor used for crop-health analysis. It records video at up to 4K resolution at 60 frames per second. Obstacle avoidance is handled by six infrared sensors and two downward-facing optical flow cameras, giving it reliable hovering even indoors where GPS is unavailable.
+
+Connectivity and Range
+The Zephyr X1 uses a proprietary radio link called AldLink that operates on the 2.4 GHz and 5.8 GHz bands. Maximum control range is 8 kilometres in open terrain with clear line of sight. Live video is streamed to the ground controller at 1080p with a latency of roughly 120 milliseconds. The drone can also be flown over a 4G connection using the AldCloud mobile app.
+
+Autonomy and Software
+Flight plans are created in the AldStudio desktop software, where the operator draws a survey area on a map and the software automatically generates an efficient lawn-mower flight path. The X1 runs firmware called AldOS, which receives over-the-air updates roughly every six weeks. A notable feature is Return-to-Home, which automatically brings the drone back to its launch point when the battery drops below 20 percent or when the radio link is lost for more than three seconds.
+
+Warranty and Support
+Aldwin Robotics offers a 12-month warranty on the airframe and a 6-month warranty on the battery. Crash damage is not covered under the standard warranty, but an optional AldCare plan covers two accidental crashes per year for an annual fee. Support is available by email and through a community forum, with an average first-response time of under 24 hours.
