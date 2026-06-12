@@ -145,7 +145,7 @@ rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chai
 # NO manual equivalent — the manual pipeline never stored a single past message.
 #
 # Right now rag_chain expects us to pass chat_history by hand every call. We don't
-# want to manage that manually, so we wrap it. RunnableWithMessageHistory:
+# want to manage qthat manually, so we wrap it. RunnableWithMessageHistory:
 #   • before each call: loads that session's history and fills the chat_history slot
 #   • after each call: appends the new question + answer to that session's history
 #
