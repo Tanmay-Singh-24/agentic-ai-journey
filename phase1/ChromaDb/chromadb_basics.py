@@ -83,7 +83,7 @@ print()
 collection.delete(ids=["id5"])
 print(f"After deleting id5, total documents: {collection.count()}")
 print()
-u
+
 
 # ── 8. UPSERT TO UPDATE EXISTING DATA ────────────────────────────────────────
 # Update an existing document — same ID, new content
